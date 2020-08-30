@@ -6,7 +6,7 @@ WORKDIR /Dockerexe
 COPY go.mod .
 COPY go.sum .
 
-RUN go mod downlaod
+RUN go mod download
 
 COPY . .
 
